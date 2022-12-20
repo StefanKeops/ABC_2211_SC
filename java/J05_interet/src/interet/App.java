@@ -28,7 +28,6 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		// utilisation de l'objet pi de la classe Java
 		int somme;
 		int annes;
 		int interet;
