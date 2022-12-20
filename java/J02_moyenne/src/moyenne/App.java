@@ -10,7 +10,7 @@ public class App {
 		nombre2 est un ENTIER
 		moyenne est un REEL
 	DEBUT PROGRAMME
-		Ecrire « Programme de calcum de la moyenne de 2 nombre »
+		Ecrire « Programme de calcul de la moyenne de 2 nombre »
 		Ecrire « Veuillez saisir un premier nombre »
 		Lire nombre1
 		Ecrire « Veuillez saisir un deuxième nombre »
@@ -48,6 +48,7 @@ public class App {
 		
 		System.out.println("Vous avez saisi:" + moyenne);
 		
+		//  FIN PROGRAMME
 		
 	}
 
