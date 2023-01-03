@@ -10,7 +10,7 @@ public class App {
 		F est un ENTIER
 		
 	DEBUT PROGRAMME
-		Ecrire « Programme de conversion de degres Celsius en degres Fahrenheit en miles »
+		Ecrire « Programme de conversion de degres Celsius en degres Fahrenheit »
 		Ecrire « Veuillez saisir une temperature »
 		Lire C
 	    F = (C * 9/5) + 32
