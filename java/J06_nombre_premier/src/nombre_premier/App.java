@@ -7,10 +7,14 @@ public class App {
 	public static void main(String[] args) {
 		  int reste;
 		  boolean flag = true;
-		  int nombre=13;
+		  int nombre;
 		  
 		  Scanner sc = new Scanner(System.in); // permet de lire des saisies utilisateur
 		        
+		  System.out.print("Veuillez saisir un nombre :  ");
+			
+			nombre = (int) sc.nextDouble();
+		  
 		  for(int i=2; i <= nombre/2; i++)
 		  {
 		     //nombre est divisible par lui-meme
