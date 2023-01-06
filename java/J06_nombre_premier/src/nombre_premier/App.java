@@ -14,6 +14,8 @@ public class App {
 		  System.out.print("Veuillez saisir un nombre :  ");
 			
 			nombre = (int) sc.nextDouble();
+			
+			nombre = (int) Math.abs(nombre);
 		  
 		  for(int i=2; i <= nombre/2; i++)
 		  {

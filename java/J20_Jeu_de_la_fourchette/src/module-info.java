@@ -5,5 +5,5 @@
  * @author SCsaszar
  *
  */
-module J20_Jeu_de_la_fourchette {
+module J20_jeu_de_la_fourchette {
 }
