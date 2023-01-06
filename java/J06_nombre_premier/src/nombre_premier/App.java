@@ -1,5 +1,31 @@
 package nombre_premier;
 
+/*
+VARIABLES
+	entier nombre
+	entier i
+	booléen est_premier
+	
+	est_premier <-- vrai
+	
+DEBUT DU PROGRAMME
+	écrire "saisir nombre"
+	lire nombre
+
+	pour i de 2 à n - 1
+		if n mod i = 0 alors
+			est_premier <-- faux
+		fin si
+	fin pour
+	
+	si est_premier = vrai alors
+		écrire "n est premier"
+	sinon
+		écrire "n n'est pas premier"
+	fin si
+FIN DU PROGRAMME 
+*/
+
 import java.util.Scanner;
 
 public class App {

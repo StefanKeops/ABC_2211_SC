@@ -2,6 +2,10 @@ package jeu_de_la_fourchette;
 
 /*VARIABLE
  
+ nombre_mystere = entier;
+ nombre_saisi = entier;
+ nb_essais;
+ 
  Générer aléatoirement un nombre entier compris entre 1 et 100 et le stocker dans une variable nombre_mystere
 Déclarer un tableau tentatives vide et une variable nb_essais initialisée à 0
 Tant que nombre_saisi != nombre_mystere
