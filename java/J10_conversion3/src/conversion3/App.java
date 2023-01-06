@@ -1,16 +1,27 @@
 package conversion3;
 
+/*
+VARIABLES
+	C est un ENTIER
+	F est un ENTIER
+	
+DEBUT PROGRAMME
+	Ecrire « Entrez la temperature a convertir : »
+	Ecrire « Entrez l'unité de la temperature (C ou F) : »
+	if 
+	Lire C
+    F = (temperature * 9/5) + 32
+    else
+    Lire F
+    C = (temperature - 32) * 5 / 9;
+	Ecrire « Temperature en degres Celsius : » C « °C » 
+	Ecrire « Temperature en degres Fahrenheit : » F « °F » 
+ FIN PROGRAMME
+ */
+
 import java.util.Scanner;
 
-
-
 public class App {
-
- 
-
- 
-
- 
 
 	public static void main(String[] args) {
 
