@@ -29,7 +29,7 @@ public class App {
 	    while (indice_debut <= indice_fin) {
 	      int indice_milieu = (indice_debut + indice_fin) / 2;
 	      if (tableau[indice_milieu] == nombre_a_rechercher) {
-	        System.out.println("Le nombre a été trouvé.");
+	        System.out.println(nombre_a_rechercher);
 	        return;
 	      } else if (tableau[indice_milieu] < nombre_a_rechercher) {
 	        indice_debut = indice_milieu + 1;
