@@ -41,7 +41,7 @@ public class App {
 		// affichage de tout les éléments du tableau
 		for(int i = 0; i <=tabPrenom.length-1; i++)
 		{
-			System.out.println(i + " " + tabPrenom[i] + " " + tabNom[i]);
+			System.out.println(i + " " + "|" + " " + tabPrenom[i] + " " + tabNom[i]);
 		}
 
 	}
