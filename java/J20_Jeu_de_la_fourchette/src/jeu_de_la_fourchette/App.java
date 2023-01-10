@@ -2,7 +2,7 @@ package jeu_de_la_fourchette;
 
 /*VARIABLE
  
- nombre_mystere = entier;
+ nombre_Random = entier;
  nombre_saisi = entier;
  nb_essais;
  
