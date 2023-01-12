@@ -46,28 +46,25 @@ public class App {
 			System.out.println("LA CHAINE EST VIDE");
 		    }
 		
-		while(chaine2.isEmpty() || chaine2.equals(".")) {
-            System.out.println("LA CHAINE EST VIDE");
-            return;
-            }
-        
-        for(int i=0; i < chaine2.length(); i++) {
-            if(chaine2.charAt(i) == letter2) {
+         for(int i=0; i < chaine2.length(); i++) 
+        {
+            if(chaine2.charAt(i) == letter2)
+            {
                 count2++;
             }
-            System.out.println("Le nombre d'occurences de " + letter2 + " est : " + count2);
-             return;
-            }
+        }
+        System.out.println("Le nombre d'occurences de " + letter2 + " est : " + count2);
 		
 		if(chaine3.isEmpty() || chaine3.equals(".")) {
             System.out.println("LA CHAINE EST VIDE");
         }
         
-        for(int i=0; i < chaine3.length(); i++) {
-            if(chaine3.charAt(i) == letter3) {
-                count3++;
-                return;
-                         }
+        for(int i=0; i < chaine3.length(); i++) 
+        {
+            if(chaine3.charAt(i) == letter3)
+            {
+                count3++;  
+            }
         }
         System.out.println("Le nombre d'occurences de " + letter3 + " est : " + count3);
         
