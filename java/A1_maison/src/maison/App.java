@@ -3,7 +3,8 @@ package maison;
 public class App {
 	public static void main(String[] args) {
 		
-	
+		
+		
 		String[] tabMaison = new String[26]; // stokage de valeur dans le tableau tabMaison
 		tabMaison[0] = "             ________________________________________________________________";
 		tabMaison[1] = "            /                    |  |                                       |";

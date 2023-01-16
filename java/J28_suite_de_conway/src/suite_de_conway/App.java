@@ -34,7 +34,9 @@ public class App {
 		}
 	}
 	// ajout un nombre d'occurences du dernier charactere
-	resultat = resultat + "" + occurences + "" + valeurs.charAt(valeurs.length()-1); 
+	resultat = resultat + "" + occurences + "" + valeurs.charAt(valeurs.length()-1);
+	
+	// affichage de resultat
 	System.out.println(resultat);
 	
 	
