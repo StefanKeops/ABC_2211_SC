@@ -1,5 +1,7 @@
 package maison;
 
+import java.awt.Color;
+
 public class App {
 	public static void main(String[] args) {
 		
@@ -7,6 +9,7 @@ public class App {
 		
 		String[] tabMaison = new String[26]; // stokage de valeur dans le tableau tabMaison
 		tabMaison[0] = "             ________________________________________________________________";
+		background(0, 0, 255);
 		tabMaison[1] = "            /                    |  |                                       |";
 		tabMaison[2] = "           /                     |  |                                       |";
 		tabMaison[3] = "          /    _______________   |  |   _____________       _____________   |";
@@ -38,6 +41,11 @@ public class App {
 				{
 					System.out.println(tabMaison[i]);
 				}
+	}
+
+	private static void background(int i, int j, int k) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

@@ -8,7 +8,7 @@ public class App {
 		System.out.println("Suite de Conway !");
 				
 		
-		String valeurs = "11211";
+		String valeurs = "112211";
 		
 		
 		String chiffre = valeurs.substring(0, 1); // lis le 1er charactère de la chaine "valeurs"
