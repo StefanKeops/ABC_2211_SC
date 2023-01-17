@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class App {
 	
-	public static int pgcd(int nombre1, int nombre2) {
+	public static int pgdc(int nombre1, int nombre2) {
 		if (nombre2 == 0) {
 			return nombre1;
 		}
-		return pgcd(nombre2, nombre1 % nombre2);
+		return pgdc(nombre2, nombre1 % nombre2);
 	}
 	
 	public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class App {
 		
 		System.out.println("Vous avez saisi:" + nombre2);
 		
-		System.out.println("Le plus grand diviseur commun de" + " " + nombre1 + " et " + " " + nombre2 + " est " + " " + pgcd(nombre1, nombre2)); 
+		System.out.println("Le plus grand diviseur commun de" + " " + nombre1 + " et " + " " + nombre2 + " est " + " " + pgdc(nombre1, nombre2)); 
 
 	}
 
