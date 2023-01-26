@@ -29,20 +29,23 @@ public class AppBouteillePet {
 		String materiel11 = "inox";
 		int masse11 = 300;
 		int buteille_choisi;
+		boolean repons;
 		
 		System.out.println("Choisissez la bouteille dans laquelle vous souhaitez mettre le liquide (1, 2, 3) :");
 		
 	    buteille_choisi = sc.nextInt();
 		
 	    if (buteille_choisi == 1) {
-			System.out.println("Buteille 1. caracteristiques : " + volume + " ml " + coleur + " avec un masse de " + masse + ", hauteur de " + hauteur + " et un diametre du col de " + diametreDuCol);
+			System.out.println("Buteille 1. caracteristiques : " + volume + " ml, " + materiel + " " + coleur + " avec un masse de " + masse + " gr, hauteur de " + hauteur + " cm et un diametre du col de " + diametreDuCol + " mm");
 	  
 		}  if  (buteille_choisi == 2) {
-			System.out.println("Buteille 2. caracteristiques : " + volume1 + " ml " + coleur1 + " avec un masse de " + masse1 + ", hauteur de " + hauteur1 + " et un diametre du col de " + diametreDuCol);
+			System.out.println("Buteille 2. caracteristiques : " + volume1 + " ml, " + materiel1 + " " + coleur1 + " avec un masse de " + masse1 + " gr, hauteur de " + hauteur1 + " cm et un diametre du col de " + diametreDuCol + " mm");
 	   	  	      }
 		if (buteille_choisi == 3) {
-	    	System.out.println("Buteille 3. caracteristiques : " + volume2 + " ml " + coleur11 + " avec un masse de " + masse11 + ", hauteur de " + hauteur1 + " et un diametre du col de " + diametreDuCol1);
+	    	System.out.println("Buteille 3. caracteristiques : " + volume2 + " ml, " + materiel11 + " " + coleur11 + " avec un masse de " + masse11 + " gr, hauteur de " + hauteur1 + " cm et un diametre du col de " + diametreDuCol1 + " mm");
           }		  
+		
+		System.out.println("Vous etes sur de votre choix:" + buteille_choisi + "?");
 
 	}
 
