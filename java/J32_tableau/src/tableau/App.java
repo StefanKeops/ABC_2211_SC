@@ -8,7 +8,7 @@ public class App {
 		
 		// declaration d'un tableau de chaine de caractère
 		
-		String [] tabFigureGeometrique = new String[7];
+		String [] tabFigureGeometrique = new String[];
 		
 		// stokage de valeur dans le tableau tabFigureGeometrique
 		
@@ -20,7 +20,7 @@ public class App {
 		tabFigureGeometrique[5] = "     Trapèze      ";
 		tabFigureGeometrique[6] = "    Rectangle     ";
 		
-		String [] tabRayon = new String[7];
+		String [] tabRayon = new String[];
 		// stokage de valeur dans le tableau tabRayon (raza)
 		
 		tabRayon[0] = "             Valeurs             ";
@@ -31,7 +31,7 @@ public class App {
 		tabRayon[5] = " l = 10 cm, B = 15 cm, b = 10 cm ";
 		tabRayon[6] = "        l = 10 cm, L = 15        ";
 		
-		String [] tabDiametre = new String [7];
+		String [] tabDiametre = new String [];
 		
 		// stokage de valeur dans le tableau tabDiametre (diametrul)
 		
@@ -43,7 +43,7 @@ public class App {
 		tabDiametre[5] = "        " + String.valueOf(10 - 2.5) + "       ";
 		tabDiametre[6] = "        10        ";
 		
-		String [] tabAire = new String[7];
+		String [] tabAire = new String[];
 		
 		// stokage de valeur dans le tableau tabAire (arie)
 		
@@ -55,7 +55,7 @@ public class App {
 		tabAire[5] = "       " +String.valueOf(((15+10) / 2) * 7.5) + "      ";
 		tabAire[6] = "       " + String.valueOf(15 * 10) + "       ";
 		
-		String [] tabPerimetre = new String[7];
+		String [] tabPerimetre = new String[];
 		
 		// stokage de valeur dans le tableau tabPerimetre (perimetru)
 		

@@ -46,6 +46,15 @@ public class AppBouteillePet {
           }		  
 		
 		System.out.println("Vous etes sur de votre choix:" + buteille_choisi + "?");
+		
+		if (repons = true); {
+			System.out.println("La bouteille choisi este ferme, voulez vous l'ouvrir?");
+			
+			if (repons = true); {
+				
+				
+			}
+		}
 
 	}
 
