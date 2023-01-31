@@ -6,6 +6,7 @@ public class Bouteille {
 	private double capaciteEnL;
 	private double contenanceEnL;
 	private boolean estOuverte;
+	private boolean estFerme;
 	private String nom;
 
 	
@@ -15,6 +16,7 @@ public class Bouteille {
 		this.capaciteEnL = capaciteEnL;
 		this.contenanceEnL = contenanceEnL;
 		this.estOuverte = estOuverte;
+		this.estFerme = estFerme;
 		this.nom = nom;
 	}
 	
@@ -34,7 +36,7 @@ public class Bouteille {
 	if (this.estOuverte == true) {
 		return false;
 			} else {
-				this.estOuverte = true;
+				this.estOuverte = false;
 		return true;
 	}
 	
@@ -42,59 +44,56 @@ public class Bouteille {
 	
 	 public boolean fermer()
 	{
-		 if (this.estOuverte == false) {
-			 System.out.println("la bouteille est ferme");
-			 return false;
-		 } else {
-			 System.out.println("La bouteille est ouverte");
+		 if (this.estFerme == false) {
 			 return true;
+		 } else {
+			 return false;
 	}
 	}
 	
 	public boolean remplirTout ()
 	{
 		if (contenanceEnL < capaciteEnL)
-			System.out.println ("La bouteille est ouverte et pleine");
-		return true;
+			return true;
+		return false;
 		 }
         
         
 	public boolean remplir(double quantiteEnL)
 	{
 		double plein = quantiteEnL + this.contenanceEnL;
-		if (this.estOuverte == true & plein > this.capaciteEnL) {
-			System.out.println ("La bouteille il est plein et s'est renverse");
-				return true;
-			} else if (this.estOuverte == true & plein < this.capaciteEnL) {
-				System.out.println ("La bouteille est ouverte et contient " + plein + " ml");
+		if (this.estOuverte == true & plein < this.capaciteEnL) {
 				return true;
 			} else {
-				 System.out.println("la bouteille est ferme");
-				 return false;
-		
+				return false;
+			}
 	}
 	
-	/*public boolean viderTout()
-	{
-		if (contenanceEnL > 0)
-			return true
+	public boolean viderTout() {
+	
+		if (contenanceEnL > 0) {
+			return true;
 	
 	} else {
-			return false
+			return false; }
 			
 	}
 	
-	public static boolean vider(double quantiteEnL)
+	public boolean vider(double quantiteEnL)
 	{
-		
+		if (this.estOuverte == true & quantiteEnL < this.contenanceEnL) {
+				return true;
+			} else {
+				return false;
+			}
 	}
 	
-	public static String DonneLeNom()
+	public String DonneLeNom()
 	{
-		
+		return this.nom;
 	}
 	
-	// Le constructeur par defaut
+	/* Le constructeur par defaut
 	public Bouteille()
 	{
 		capaciteEnL = 1;
@@ -112,4 +111,4 @@ public class Bouteille {
 		this.nom = _Nom;
 	}*/
 
-	}}
+	}
