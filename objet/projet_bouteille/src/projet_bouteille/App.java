@@ -49,7 +49,7 @@ public class App {
 		}
 		System.out.println(monster.toString());
 		
-		//monster.remplir(45);
+		//monster.remplir(450);
 		
 		boolean aRempli = monster.remplir(450);
 		if (aRempli == true) {
