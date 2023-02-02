@@ -45,16 +45,27 @@ public class PorteGarage {
 		
 		}
 		
-		//remplir();
+		//demiOuvrir();
 		
 		public boolean demiOuvrir(double distanceEnMM)
 		{
-			double ouverture = this.hauteurEnMM - distanceEnMM;
-			if (this.estOuverte == true && distanceEnMM < this.hauteurEnMM) {
+			if (this.estOuverte == true && distanceEnMM <= this.hauteurEnMM) {
 					return true;
 				} else {
 					return false;
 				}
 		}
-
-}
+		
+		// ouvrirTelecomande()
+		
+				public int ouvrirTelecomande(double distanceEnM)
+				{
+				if (this.estOuverte == false & this.estVerrouille == true & distanceEnM <= 3) {
+					return 0; 
+					
+						} else if (this.estOuverte == false & this.estVerrouille == true & distanceEnM > 3)	{
+							return 1;
+							
+						} else  {
+							return 2;
+}}} 

@@ -6,7 +6,6 @@ public class Bouteille {
 	private double capaciteEnL;
 	private double contenanceEnL;
 	private boolean estOuverte;
-	private boolean estFerme;
 	private String nom;
 
 	
@@ -16,7 +15,6 @@ public class Bouteille {
 		this.capaciteEnL = capaciteEnL;
 		this.contenanceEnL = contenanceEnL;
 		this.estOuverte = estOuverte;
-		this.estFerme = estFerme;
 		this.nom = nom;
 	}
 	
@@ -42,27 +40,33 @@ public class Bouteille {
 	
 	}
 	
-	 public boolean fermer()
+	 public boolean fermer() 
 	{
-		 if (this.estFerme == false) {
+		if (this.estOuverte == true) {
+			 this.estOuverte = false;
 			 return true;
 		 } else {
 			 return false;
 	}
 	}
 	
-	public boolean remplirTout ()
+	public boolean remplirTout () // ne rempli rien
 	{
 		if (contenanceEnL < capaciteEnL)
+		{
+			this.contenanceEnL = this.capaciteEnL;
+			this.estOuverte = true;
 			return true;
+		}
 		return false;
 		 }
         
         
-	public boolean remplir(double quantiteEnL)
+	 public boolean remplir(double quantiteEnL) 
 	{
 		double plein = quantiteEnL + this.contenanceEnL;
-		if (this.estOuverte == true & plein < this.capaciteEnL) {
+		if (this.estOuverte == true) {
+			contenanceEnL = plein;
 				return true;
 			} else {
 				return false;
@@ -70,8 +74,9 @@ public class Bouteille {
 	}
 	
 	public boolean viderTout() {
-	
-		if (contenanceEnL > 0) {
+		
+		contenanceEnL = this.capaciteEnL -	this.contenanceEnL;
+		if (contenanceEnL == 0) {
 			return true;
 	
 	} else {
@@ -81,11 +86,13 @@ public class Bouteille {
 	
 	public boolean vider(double quantiteEnL)
 	{
-		if (this.estOuverte == true & quantiteEnL < this.contenanceEnL) {
-				return true;
-			} else {
+		if (this.estOuverte == true & contenanceEnL > 0) {
+			contenanceEnL = this.contenanceEnL -  quantiteEnL;
+			return true;
+			} else if (this.contenanceEnL == 0){
 				return false;
 			}
+		return estOuverte;
 	}
 	
 	public String DonneLeNom()

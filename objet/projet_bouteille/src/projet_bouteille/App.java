@@ -36,7 +36,7 @@ public class App {
 		else {
 			System.out.println("La bouteille n'a pas pu etre ferme car elle etait déjà ferme");
 		}
-		System.out.println(monster.toString());
+		System.out.println(monster.toString()); 
 		
 		// monster.remplirTout();
 		
@@ -49,9 +49,9 @@ public class App {
 		}
 		System.out.println(monster.toString());
 		
-		//monster.remplir(450);
+		//monster.remplir(50);
 		
-		boolean aRempli = monster.remplir(450);
+		boolean aRempli = monster.remplir(0);
 		if (aRempli == true) {
 			System.out.println("le contenu est complètement entré dans la bouteille");
 		}
@@ -71,12 +71,12 @@ public class App {
 		}
 		System.out.println(monster.toString());
 		
-		boolean aVide = monster.vider(450);
+		boolean aVide = monster.vider(0);
 		if (aVide == true) {
 			System.out.println("une partie du contenu a été vidée de la bouteille");
 		}
 		else {
-			System.out.println("Le contenu de la bouteille n'a pas pu être vidé");
+			System.out.println("Le contenu de la bouteille n'a pas pu être vidé car elle était déjà vide");
 		}
 		System.out.println(monster.toString());
 		
