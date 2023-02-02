@@ -45,13 +45,13 @@ public class App {
 			System.out.println("La bouteille est ouverte et pleine");
 		}
 		else {
-			System.out.println("La bouteille est ferme ou deja pleine");
+			System.out.println("La bouteille a ete ouverte et rempli");
 		}
 		System.out.println(monster.toString());
 		
 		//monster.remplir(50);
 		
-		boolean aRempli = monster.remplir(0);
+		boolean aRempli = monster.remplir(50);
 		if (aRempli == true) {
 			System.out.println("le contenu est complètement entré dans la bouteille");
 		}
@@ -71,7 +71,7 @@ public class App {
 		}
 		System.out.println(monster.toString());
 		
-		boolean aVide = monster.vider(0);
+		boolean aVide = monster.vider(50);
 		if (aVide == true) {
 			System.out.println("une partie du contenu a été vidée de la bouteille");
 		}
