@@ -1,5 +1,7 @@
 package projet_porte_garage;
 
+import java.util.Scanner;
+
 public class PorteGarage {
 	
 	// declaration des attributs
@@ -45,27 +47,51 @@ public class PorteGarage {
 		
 		}
 		
-		//demiOuvrir();
+		//ouverture partialle();
 		
-		public boolean demiOuvrir(double distanceEnMM)
-		{
-			if (this.estOuverte == true && distanceEnMM <= this.hauteurEnMM) {
-					return true;
+		public int partialle() {
+		
+			Scanner sc = new Scanner(System.in);
+		
+        System.out.println("Veuillez saisir combien de MM vous voulez ouvrir la porte : ");
+		
+		int distanceEnMM = sc.nextInt();
+		
+		int pourcentage = (int) (distanceEnMM * 100 / hauteurEnMM);
+				
+			if (distanceEnMM <= this.hauteurEnMM) {
+					return pourcentage;
 				} else {
-					return false;
+					
 				}
+			return pourcentage ;
+		}
+		
+		// fermer
+		
+		public boolean fermer() {
+			if (this.estOuverte == true) {
+				this.estOuverte = false;
+				return true;
+			} else {
+				return false;
+			}
 		}
 		
 		// ouvrirTelecomande()
 		
-				public int ouvrirTelecomande(double distanceEnM)
-				{
-				if (this.estOuverte == false & this.estVerrouille == true & distanceEnM <= 3) {
-					return 0; 
+				public boolean ouvrirTelecomande() {
 					
-						} else if (this.estOuverte == false & this.estVerrouille == true & distanceEnM > 3)	{
-							return 1;
+					Scanner sc = new Scanner(System.in);
+					
+					System.out.println("Veuillez saisir a quelle distance en mètres de la porte : ");
+					 
+					int distanceEnM = sc.nextInt();
+					
+				if (distanceEnM <= 3) {
+					return true; 
+					
+						} else {
+							return false;
 							
-						} else  {
-							return 2;
-}}} 
+}}}

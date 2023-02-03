@@ -21,30 +21,38 @@ public class App {
 				}
 				System.out.println(STANDARD.toString());
 				
-		//STANDARD.demiouvrir(1000); 
+		//STANDARD.partialle(); 
 				
-				boolean aDemiOuvri  = STANDARD.demiOuvrir(1000); // (x) distance en mm pour la ouverture partiale du porte
-				if (aDemiOuvri == true) {
-					System.out.println("La porte est entrouverte");
+				int pourcentage  = STANDARD.partialle();
+				if (pourcentage <= 100) {
+					System.out.println("La porte est " + pourcentage + "% ouverte");
 				}
 				else {
-					System.out.println("Le portail ne peut pas être ouvert plus que l'ouverture maximale");
+					System.out.println("Le porte ne peut pas être ouvert plus que l'ouverture maximale");
 				}
 				System.out.println(STANDARD.toString());
+				
+		//STANDARD.fermer
+				
+				boolean aFerme = STANDARD.fermer();
+				if (aFerme == true) {
+					System.out.println("La porte de garage a pu etre ferme");
+				}
+				else {
+					System.out.println("La porte de garage n'a pas pu etre ferme car elle etait déjà ferme");
+				}
+				System.out.println(STANDARD.toString()); 
 				
 		// STANDARD.ouvrirTelecomande()
 				
-				int aReussi1= STANDARD.ouvrirTelecomande(3); // (x) distance en m pour la distance entre porte et voiture
-				if (aReussi1 == 0){
+				boolean aReussi1= STANDARD.ouvrirTelecomande(); // (x) distance en m pour la distance entre porte et voiture
+				if (aReussi1 == true){
 					System.out.println("La porte de garage a pu etre ouverte avec la telecomande");
 				}
-				else if (aReussi1 == 1) {
+				else {
 					System.out.println("La porte de garage n'a pas pu etre ouverte car vous etais a un distance plus grande de 3 m.");
 				}
-				else {
-					System.out.println("La porte de garage n'a pas pu etre ouverte car elle etait déjà ouverte");
-				}
-				System.out.println(STANDARD.toString());
+					System.out.println(STANDARD.toString());
 	}
 
 }
