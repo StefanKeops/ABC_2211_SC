@@ -71,7 +71,7 @@ public class PorteGarage {
 		
 		public boolean fermer() {
 			if (this.estOuverte == true) {
-				this.estOuverte = false;
+				this.estOuverte = true;
 				return true;
 			} else {
 				return false;
