@@ -12,17 +12,10 @@ public class App {
 		
 		// schindler.appele()
 		
-		boolean aAppele = schindler.appeler();
+		double aAppele = schindler.appeler();
 		
-		if (aAppele == true) {
-			
-			System.out.println("A quel étage voulez-vous monter?");
-						
-		} else {
-				
-			System.out.println("A quel étage voulez-vous descendre?");
-			
-		}
+		System.out.println("A quel étage voulez-vous aller?");
+		
 		System.out.println(schindler.toString());
 		
 		// shindler.monter()

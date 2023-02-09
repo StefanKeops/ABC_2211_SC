@@ -11,7 +11,8 @@ public class Ascenseur {
 		private double etage;
 		private boolean porteEstOuverte;
 		double demandeEtage;
-				
+		Scanner sc = new Scanner(System.in);
+		
 		// les constructeurs
 
 		public Ascenseur(double capaciteEnNombrePersonnes, boolean porteEstOuverte, double etage, String nom) {
@@ -29,45 +30,47 @@ public class Ascenseur {
 		
 		// les methodes
 		
-		public boolean appeler() {
-			if (this.etage != 0) {
+		public double appeler() {
+			if (this.etage > 0) {
 				boolean porteEstOuverte = true;
-				Scanner sc = new Scanner(System.in);
 				System.out.println("L'ascenseur est arrivé. Veuillez indiquer le nombre de personnes qui montent dans l'ascenseur");
 				double personnes = sc.nextInt();
 				capaciteEnNombrePersonnes = 84 - personnes;
 				porteEstOuverte = false;
 				this.etage = 0;
-				return true;
+				return 0;
+				
+			} else if (this.etage < 0) {
+				boolean porteEstOuverte = true;
+				System.out.println("L'ascenseur est arrivé. Veuillez indiquer le nombre de personnes qui montent dans l'ascenseur");
+				int personnes = sc.nextInt();
+				this.capaciteEnNombrePersonnes = capaciteEnNombrePersonnes - personnes;
+				porteEstOuverte = false;
+				this.etage = 0;
+				return 1;
 				
 			} else {
 				boolean porteEstOuverte = true;
-			    Scanner sc = new Scanner(System.in);
 				System.out.println("L'ascenseur était déjà à cet étage. Veuillez indiquer le nombre de personnes qui montent dans l'ascenseur");
 				int personnes = sc.nextInt();
 				this.capaciteEnNombrePersonnes = capaciteEnNombrePersonnes - personnes;
 				porteEstOuverte = false;
 				this.etage = 0;
-				return false;
+				return 2;
 			}
 		}
 		
 		
 		public boolean monter() {
 			
-			Scanner sc = new Scanner(System.in);
 			demandeEtage = sc.nextInt();
 			
 			if (this.demandeEtage > this.etage) {
-				// Scanner sc = new Scanner(System.in);
-				// demandeEtage = sc.nextInt(); 
 				porteEstOuverte = false;
 				this.etage = demandeEtage;
 				return true;
 			
 			} else {
-				// Scanner sc = new Scanner(System.in);
-				// demandeEtage = sc.nextInt();
 				porteEstOuverte = false;
 				this.etage = demandeEtage;
 				return false;
