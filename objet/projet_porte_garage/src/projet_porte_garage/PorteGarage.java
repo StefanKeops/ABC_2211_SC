@@ -7,17 +7,16 @@ public class PorteGarage {
 	// declaration des attributs
 		private double hauteurEnMM;
 		private double LargeurEnMM;
-		private boolean estOuverte;
 		private boolean estVerrouille;
-
+		private final double  HAUTEUR_MAXIMUM;
 		
 		// les constructeurs
 		
-		public PorteGarage ( double hauteurEnMM , double LargeurEnMM , boolean estOuverte , boolean estVerrouille ) {
+		public PorteGarage ( double hauteurEnMM , double LargeurEnMM, boolean estVerrouille ) {
 			this.hauteurEnMM = hauteurEnMM;
 			this.LargeurEnMM = LargeurEnMM;
-			this.estOuverte = estOuverte;
 			this.estVerrouille = estVerrouille;
+			HAUTEUR_MAXIMUM=2000;
 		}
 		
 		@Override
@@ -25,7 +24,6 @@ public class PorteGarage {
 		{
 			return 	"hauteurEnMM ="+hauteurEnMM+
 			" LargeurEnMM="+LargeurEnMM+
-			" estOuverte="+estOuverte+
 			" estVerrouille="+estVerrouille;
 		}
 		
@@ -33,12 +31,36 @@ public class PorteGarage {
 		
 		// ouvrir
 		
+		public boolean estTotallementOuvert() 
+		{
+		if (this.hauteurEnMM == 0) {
+			this.estVerrouille = false;
+			return true;
+			
+		} else {
+			return false;
+		}
+		
+		}
+		
+		public boolean estPartiellementOuvert()
+		{
+		if (this.hauteurEnMM < this.HAUTEUR_MAXIMUM) {
+			return true;
+			
+		} else {
+			return false;
+		}
+			
+		}
+		
+		
 		public int ouvrir()
 		{
-		if (this.estOuverte == false & this.estVerrouille == false) {
+		if (this.hauteurEnMM <= this.HAUTEUR_MAXIMUM & this.estVerrouille == false) {
 			return 0; 
 			
-				} else if (this.estOuverte == true & this.estVerrouille == false)	{
+				} else if ( this.estVerrouille == true)	{
 					return 1;
 					
 				} else  {
@@ -60,8 +82,9 @@ public class PorteGarage {
 		int pourcentage = (int) (distanceEnMM * 100 / hauteurEnMM);
 				
 			if (distanceEnMM <= this.hauteurEnMM) {
-					return pourcentage;
-				} else {
+				this.hauteurEnMM = hauteurEnMM - distanceEnMM;
+				return pourcentage;
+					} else {
 					
 				}
 			return pourcentage ;
@@ -70,8 +93,9 @@ public class PorteGarage {
 		// fermer
 		
 		public boolean fermer() {
-			if (this.estOuverte == true) {
-				this.estOuverte = true;
+			if (this.hauteurEnMM >= 0) {
+				this.estVerrouille = false;
+				this.hauteurEnMM=HAUTEUR_MAXIMUM;
 				return true;
 			} else {
 				return false;
@@ -89,6 +113,9 @@ public class PorteGarage {
 					int distanceEnM = sc.nextInt();
 					
 				if (distanceEnM <= 3) {
+					estVerrouille = true;
+					this.hauteurEnMM = this.hauteurEnMM - this.hauteurEnMM;
+					estVerrouille = false;
 					return true; 
 					
 						} else {

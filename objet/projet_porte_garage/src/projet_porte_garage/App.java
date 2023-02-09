@@ -4,7 +4,7 @@ public class App {
 		
 	public static void main(String[] args) {
 		
-		PorteGarage STANDARD = new PorteGarage (2000, 2400, true, false);
+		PorteGarage STANDARD = new PorteGarage (2000, 2400, false);
 		System.out.println(STANDARD.toString());
 		
 		// STANDARD.ouvrir()
@@ -14,10 +14,10 @@ public class App {
 					System.out.println("La porte de garage a pu etre ouverte");
 				}
 				else if (aReussi == 1) {
-					System.out.println("La porte de garage n'a pas pu etre ouverte car elle etait déjà ouverte");
+					System.out.println("La porte de garage n'a pas pu etre ouverte car elle etait verrouille");
 				}
 				else {
-					System.out.println("La porte de garage n'a pas pu etre ouverte car elle etait verrouille");
+					System.out.println("La porte de garage n'a pas pu etre ouverte car elle etait deja ouverte");
 				}
 				System.out.println(STANDARD.toString());
 				
@@ -29,6 +29,17 @@ public class App {
 				}
 				else {
 					System.out.println("Le porte ne peut pas être ouvert plus que l'ouverture maximale");
+				}
+				System.out.println(STANDARD.toString());
+				
+		//STANDARD TOTALLEMENT OUVERTE
+				
+				boolean estTotallementOuverte = STANDARD.estTotallementOuvert();
+				if (estTotallementOuverte == true) {
+					System.out.println("La porte du garage est totallment ouverte : ");
+				} 
+				else {
+					System.out.println("La porte du garage n'est pas totallment ouverte : ");
 				}
 				System.out.println(STANDARD.toString());
 				
