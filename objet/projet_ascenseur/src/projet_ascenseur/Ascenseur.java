@@ -35,7 +35,7 @@ public class Ascenseur {
 				boolean porteEstOuverte = true;
 				System.out.println("L'ascenseur est arrivé. Veuillez indiquer le nombre de personnes qui montent dans l'ascenseur");
 				double personnes = sc.nextInt();
-				capaciteEnNombrePersonnes = 84 - personnes;
+				capaciteEnNombrePersonnes = capaciteEnNombrePersonnes - personnes;
 				porteEstOuverte = false;
 				this.etage = 0;
 				return 0;
