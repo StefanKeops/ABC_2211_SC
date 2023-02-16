@@ -32,6 +32,11 @@
 			System.out.println(" Ville2 "+ville2.getnomVille()+" ville de "+ville2.getNbHabitants()
 			+" habitants se situant en "+ville2.getNomPays());
 			
+			System.out.println("\n\n"+ville.decrisToi());
+			System.out.println(ville.decrisToi());
+			System.out.println(ville2.decrisToi()+"\n\n");
+			System.out.println(ville1.comparer(ville2));
+		
 		}
 
 	}
