@@ -40,17 +40,16 @@ public class App {
 		Villes ville34 = new Villes("Belgrade", 1408000, "Serbie");
 		Villes ville35 = new Villes("Sofia", 1288000, "Bulgarie");
 		Villes ville36 = new Villes("Tirana", 520000, "Albanie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
-		Villes ville2 = new Villes("Rome", 4316000, "Italie");
+		Villes ville37 = new Villes("Skopje", 611000, "Macédoine");
+		Villes ville38 = new Villes("Athènes", 3154000, "Grèce");
+		Villes ville39 = new Villes("Chisinau", 751180, "Moldavie");
+		Villes ville40 = new Villes("Kiev", 3017000, "Ukraine");
+		Villes ville41 = new Villes("Minsk", 2057000, "Biélorussie");
+		Villes ville42 = new Villes("Moscou", 12680000, "Russie");
+		Villes ville43 = new Villes("Tbilissi", 1082000, "Géorgie");
+		Villes ville44 = new Villes("Bakou", 2432000, "Azerbaïdjan");
+		Villes ville45 = new Villes("Erevan", 1095000, "Arménie");
+		Villes ville46 = new Villes("Reykjavik", 137618, "Islande");
+		Villes ville47 = new Villes("Podgorica", 175674, "Monténégro");
 	}
 }
