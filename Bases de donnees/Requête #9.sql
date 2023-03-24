@@ -1,0 +1,4 @@
+CREATE VIEW liste9
+AS SELECT *
+FROM emp
+ORDER BY job, sal DESC;

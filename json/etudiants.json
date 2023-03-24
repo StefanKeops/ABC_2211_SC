@@ -1,0 +1,31 @@
+{
+"formation" : [
+    {
+        "intitule" : "ABC Dev",
+        "duree" : "5 mois",
+        "date_demarrage" : "2022-11-06",
+        "date_fin" : "2023-04-04"
+    }
+],
+
+"etudiants" : [
+    {
+        "nom" : "Picard",
+        "prenom" : "Jean Luc",
+        "date_de_naissance" : "1998-05-12",
+        "email" : "JLPicard@arfp.asso.fr"
+    },
+    {
+        "nom" : "of Nine",
+        "prenom" : "Seven",
+        "date_de_naissance" : "2005-08-05",
+        "email" : "SofNine@arfp.asso.fr"
+    },
+    {
+        "nom" : "Rozhenko",
+        "prenom" : "Worf",
+        "date_de_naissance" : "2002-03-04",
+        "email" : "WRozhenko@arfp.asso.fr"
+    }
+]
+}

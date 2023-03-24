@@ -1,0 +1,4 @@
+CREATE VIEW DOI3 AS
+SELECT *
+FROM emp 
+WHERE comm IS NOT NULL AND comm <> 0;

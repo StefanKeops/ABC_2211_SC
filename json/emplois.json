@@ -1,0 +1,43 @@
+{
+"emploi PHP" : [
+    {
+        "intitule" : "Développeur PHP (H/F)",
+        "ville" : "Paris",
+        "description_du_post" : ["Maintenance et évolution de notre extranet(PHP, Mysql, Javascript)", "création/maintenance des flux de nos partenaires promoteurs", "articipation à la refonte/au support des applications internes à l'aide de Drupal"],
+        "competences_requises" : ["Conception et maintenance de Bases de données", "langages: SQL, Php, Mysql, Javascript", "connaissance d'un framework type Symfony ou Laravel", "Esprit de logique et d'analyse"],
+        "date_de_demarage" : "1 mai 2023",
+        "salaire_annuel" : "32 000 €",
+        "adresse_email_de_contact" : "DevloppeurParis@logisneuf.com"
+    }
+],
+
+"emploi Java"  : [
+    {
+        "intitule" : "Développeur Java (H/F)",
+        "ville" : "Mulhouse",
+        "post" : "Rattaché(e) au Directeur de l'agence Pégase Market dont vous dépendez",
+        "description_du_post" : ["Développer des fonctionnalités pour nos applications en utilisant les Framesworks Jakarta EE et Spring", "Ecrire du code SQL adapté pour les interactions avec la base de données", "S'assurer de suivre les bonnes pratiques, design patterns et les principes SOLID", "Utiliser Git pour gérer le code source", "Rédiger la documentation technique pour les fonctionnalités développées", "Mettre en place des protocoles de tests pour garantir la qualité du code", "Participer aux évolutions de la stack et des Frameworks utilisés", "Remonter les risques aux équipes de tests d'intégration", "Travailler en étroite collaboration avec les membres de l'équipe pour s'assurer que les objectifs de développement sont atteints", "Être curieux et continuer à apprendre de nouvelles technologies et compétences pour améliorer les projets"],
+        "competences_requises" : ["Compréhension de l'anglais technique", "Maîtrise de Java ou à défaut d'un langage objet statiquement typé", "Maîtrise des Framework tels que Jakarta EE, Spring, etc.", "Bonne maîtrise de SQL", "Intérêt pour les bonnes pratiques, design patterns, etc."],
+        "date_de_demarage" : "Au plus vite",
+        "salaire_annuel" : "Salaire brut : Selon profil et expériences",
+        "adresse_email_de_contact" : "DevloppeurMulhouse@logisneuf.com"
+    }
+],
+
+"emploi Web Java (NodeJS, angular) (IT)"  : [
+    {
+        "intitule" : "Développeur Web Java (NodeJS, angular) (IT) / Freelance (H/F)",
+        "ville" : "Toulouse",
+        "post" : "Vous travaillerez sur la réalisation/maintenance de système d'information dans le domaine de la défense.",
+        "description_du_post" : ["Phase de maintenance : correction d'anomalies et réalisation d'évolutions.", "Phase de build : développement de fonctionnalités et de mise en place de technique."],
+        "competences_requises" : ["Compréhension de l'anglais technique", "Maîtrise de Java ou à défaut d'un langage objet statiquement typé", "Maîtrise des Framework tels que Jakarta EE, Spring, etc.", "Bonne maîtrise de SQL", "Intérêt pour les bonnes pratiques, design patterns, etc."],
+        "date_de_demarage" : "1 mai 2023",
+        "salaire_annuel" : "Salaire brut : Selon profil et expériences",
+        "adresse_email_de_contact" : "DevloppeurToulouse@logisneuf.com"
+    }
+]
+}
+
+
+        
+

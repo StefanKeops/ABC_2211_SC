@@ -1,0 +1,4 @@
+CREATE VIEW DOI4 AS
+SELECT *
+FROM emp 
+ORDER BY deptno ASC, job ASC, hiredate DESC;

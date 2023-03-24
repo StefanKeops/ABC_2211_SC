@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<legumes intitule="Les 6 légumes produits par un maraîcher">
+<legume>
+<nom>AUBERGINES</nom>
+<latin>(Solanum melongena L.)</latin>
+<origine>Asie</origine>
+<fleurs>Fleurs, de couleur blanche ou violette</fleurs>
+<fruits>Les fruits sont des baies d'une grande variété de forme (ovoïdes, piriformes, sphériques, cylindriques et très allongées) et de couleurs différentes (du blanc ivoire, jaune, vert, et plus généralement pourpre, violacé jusqu'à presque noir) uniformes</fruits>
+</legume>
+<legume>
+<nom>CONCOMBRES</nom>
+<latin>(Cucumis sativus)</latin>
+<origine>Asie</origine>
+<fleurs>Fleurs de couleur jaune pâle</fleurs>
+<fruits>Les fruits allongés et charnus, au toucher rugueux, peuvent atteindre 30 cm de long et 5 cm de diamètre. Ce sont des baies contenant de nombreuses graines. Leur couleur à maturité varie selon les variétés du vert au blanc en passant par le jaune.</fruits>
+</legume>
+<legume>
+<nom>CORNICHON</nom>
+<latin>(Cucumis sativus)</latin>
+<origine>Asie</origine>
+<fleurs>Fleurs de couleur jaune pâle</fleurs>
+<fruits>Les fruits allongés et charnus, au toucher rugueux, peuvent atteindre 30 cm de long et 5 cm de diamètre. Ce sont des baies contenant de nombreuses graines. Leur couleur à maturité varie selon les variétés du vert au blanc en passant par le jaune.</fruits>
+</legume>
+<legume>
+<nom>COURGE</nom>
+<latin>(Genre Cucurbita)</latin>
+<origine>Amérique</origine>
+<fleurs>Fleurs de couleur jaune </fleurs>
+<fruits> Ffruits comestibles mais il arrive qu'elles le soient pour leurs graines oléagineuses.</fruits>
+</legume>
+<legume>
+<nom>LAITUES</nom>
+<latin>(Lactuca sativa)</latin>
+<origine>Europe, Afrique du Nord, Asie</origine>
+<facts>Plus de 2 160 variétés sont inscrites au catalogue officiel européen des espèces et variétés et près de 400 au catalogue français.</facts>
+</legume>
+<legume>
+<nom>TOMATES CERISES</nom>
+<latin>(hybrides entre Solanum pimpinellifolium L. et la tomate cultivée, issue de l'espèce Solanum lycopersicum)</latin>
+<origine>Amérique du Sud</origine>
+<fruits> La taille des fruits varie de celle d'une cerise à celle d'une balle de golf, tandis que leur forme généralement sphérique peut aussi être oblongue. Leur couleur est le plus souvent rouge à maturité mais il existe des variétés aux fruits présentant toutes les couleurs possible chez la tomate (jaunes, vertes, zébrées, pourpre, indigo...) </fruits>
+<fruits> La forme sauvage de la tomate : Solanum lycopersicum var. cerasiforme, est une petite tomate originaire de l'ouest de l'Amérique du Sud, en Équateur et au Pérou. Comme la tomate cultivée, elle comporte 24 chromosomes. Parmi les espèces sauvages voisines de la tomate cultivée, la tomate groseille (Solanum pimpinellifolium), plus petite, est également comestible. La tomate des Galapagos (Solanum cheesmaniae) fait également de très petits fruits. Ces différentes espèces sauvages sont utilisées par hybridation avec des tomates cultivées par les sélectionneurs pour créer de nouvelles variétés plus résistantes aux maladies et à certains stress.</fruits>
+</legume>
+</legumes>
