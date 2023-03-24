@@ -1,0 +1,56 @@
+{
+"Creed III" : [
+    {
+        "genre" : "Drame",
+        "description" : ["Idole de la boxe et entouré de sa famille, Adonis Creed n’a plus rien à prouver. Jusqu’au jour où son ami d’enfance, Damian, prodige de la boxe lui aussi, refait surface. À peine sorti de prison, Damian est prêt à tout pour monter sur le ring et reprendre ses droits. Adonis joue alors sa survie, face à un adversaire déterminé à l’anéantir.", "Rôle-titre des deux premiers épisodes, Michael B. Jordan enfile de nouveau les gants mais aussi le costume de réalisateur pour Creed III. Après les Rocky et les deux opus de Creed, ce nouveau long-métrage est le premier de la saga où n'apparaît pas Sylvester Stallone, qui tenait le rôle de Rocky Balboa depuis 1977."],
+        "distribution" : ["Michael B. Jordan (Adonis Creed)", "Tessa Thompson (Bianca)", "Jonathan Majors (Damian Anderson)", "Wood Harris (Tony 'Little Duke' Burton)", "Florian Munteanu (Viktor Drago)", "Phylicia Rashad (Mary Anne Creed)", "Tony Bellew ('Pretty' Ricky Conlan)", "Alex Henderson (Adonis jeune)", "Spence Moore (Damian jeune)", "Selenis Leyva", "Pete Penuel (Boxing Elder 2)"],
+        "echipe_technique" : ["Zach Baylin (scénario)", "Kramer Morgenthau (direction artistique)"],
+        "distributeur" : "Warner Bros",
+        "date_sortie" : "1er mars 2023"
+    }
+],
+
+"Shazam! La Rage des dieux" : [
+    {
+        "genre" : "Action / Aventure",
+        "description" : "Capable de se transformer en superhéros à l'aide d'un mot magique, un jeune homme doit une nouvelle fois utiliser son pouvoir pour sauver la planète.",
+        "distribution" : ["Zachary Levi (Shazam)", "Helen Mirren (Hespera)", "Jack Dylan Grazer (Freddy Freeman)", "Rachel Zegler (Anthea)", "Ross Butler (Eugene)", "Meagan Good (Darla)", "Lucy Liu (Kalypso)", "Djimon Hounsou (le vieux sorcier Shazam)", "Adam Brody (Freddy)", "Grace Fulton (Mary Bromfield)", "P.J. Byrne (Doctor)", "Asher Angel (Billy Batson)"],
+        "echipe_technique" : ["Henry Gayden (scénario)", "Chris Morgan (scénario)", "Christophe Beck (musique)", "Gyula Pados (direction artistique)"],
+        "distributeur" : "Warner Bros",
+        "date_sortie" : "29 mars 2023"
+    }
+],
+
+"Scream VI" : [
+    {
+        "genre" : "Épouvante / Horreur",
+        "description" : ["Après la dernière série de meurtres qui a frappé Woodsboro et encore une fois perpétrée par un mystérieux tueur masqué, certains ont préféré fuir la ville pour tenter de se reconstruire et tirer un trait définitif sur ce douloureux passé. C'est le cas de Tara, Sam, ou encore Gale, toutes trois ciblées lors de la dernière vague d'assassinats, et qui ont choisi de s'installer à New York, pensant se fondre discrètement dans l'immensité de cette métropole. Malheureusement, le répit se révèle de bien courte durée.", "Le célèbre tueur en série masqué Ghostface continue de s'exporter dans ce sixième épisode de la saga imaginée par Kevin Williamson et portée au cinéma pour la première fois au cinéma par Wes Craven. C'est désormais à New York que l'assassin va opérer, après avoir fait son retour, 25 ans après, dans sa ville d'origine de Woodsboro. Devenu figure de l'épouvante à l'international, Ghostface a désormais sa statue au musée Grévin."],
+        "distribution" : ["Melissa Barrera (Sam Carpenter)", "Jenna Ortega (Tara Carpenter)", "Courteney Cox (Gale Weathers)", "Jasmin Savoy Brown (Mindy Meeks-Martin)", "Mason Gooding (Chad Meeks-Martin)", "Hayden Panettiere (Kirby Reed)", "Devyn Nekoda (Anika)", "Josh Segarra (Danny Brackett)", "Liana Liberato (Quinn Bailey)", "Tony Revolori (Jason Carvey)", "Dermot Mulroney (Detective Bailey)", "Henry Czerny (Dr. Christopher Stone)"],
+        "echipe_technique" : ["James Vanderbilt (scénario)", "Guy Busick (scénario)", "Brett Jutkiewicz (direction artistique)"],
+        "distributeur" : "Warner Bros",
+        "date_sortie" : "8 mars 2023"
+    }
+],
+
+"65 - La Terre d'avant" : [
+    {
+        "genre" : "Science-fiction",
+        "description" : ["Après un terrible crash sur une planète inconnue, le pilote Mills découvre rapidement qu’il a en réalité échoué sur Terre… il y a 65 millions d’années. Pour réussir leur unique chance de sauvetage, Mills et Koa, l’unique autre survivante du crash, doivent se frayer un chemin à travers des terres inconnues peuplées de dangereuses créatures préhistoriques dans un combat épique pour leur survie.", "Avant 65 - La Terre d'avant, Scott Beck et Bryan Woods s'étaient fait remarquer avec le scénario de Sans un bruit, réalisé par John Krasinski, qui avait réuni près de 650 000 spectateurs en France. « Nous aimons le cinéma de genre. Horreur, suspense, action, aventure - c'est le jackpot pour nous. Et ce qu'on aime encore plus, c'est combiner un genre avec du suspense et des personnages auxquels on s'attache vraiment », expliquent les cinéastes. Tourné dans les forêts de l'Oregon, aux États-Unis, le film dispose d'un budget conséquent de 90 millions de dollars."],
+        "distribution" : ["Adam Driver (Mills)", "Ariana Greenblatt (Koa)", "Chloe Coleman (Nevine)", "Brian Dare (Zoic Ship)"],
+        "echipe_technique" : ["Scott Beck (scénario)", "Bryan Woods (scénario)", "Chris Bacon (musique)", "Danny Elfman (musique)", "Salvatore Totino (direction artistique)"],
+        "distributeur" : "Sony Pictures",
+        "date_sortie" : "15 mars 2023"
+    }
+],
+
+"Alibi.com 2" : [
+    {
+        "genre" : "Comédie",
+        "description" : ["Après avoir fermé son agence Alibi.com et promis à Flo qu'il ne lui mentirait plus jamais, Greg mène une nouvelle vie tranquille, trop tranquille... Plus pour longtemps ! Lorsqu’il décide de demander Flo en mariage, Greg est au pied du mur et doit se résoudre à présenter sa famille. Mais entre son père escroc et sa mère ex-actrice de films de charme, ça risque fort de ruiner sa future union. Il n'a donc pas d'autre choix que de rouvrir son agence avec ses anciens complices pour un ultime Alibi et de se trouver des faux parents plus présentables.", "Six ans après le succès du premier épisode, qui a réuni plus de 3,5 millions de spectateurs, Philippe Lacheau et sa bande présentent Alibi.com 2. Si on retrouve bien évidemment les personnages principaux interprétés par Tarek Boudali, Élodie Fontan ou Philippe Lacheau lui-même, ainsi que Didier Bourdon et Nathalie Baye, le casting s'élargit et accueille des noms biens connus du cinéma en France comme Gérard Jugnot, Arielle Dombasle, Gad Elmaleh ou encore Alexandra Lamy."],
+        "distribution" : ["Philippe Lacheau (Grégory Van Huffel)", "Élodie Fontan (Flo Martin)", "Julien Arruti (Augustin)", "Tarek Boudali (Medhi)", "Nathalie Baye (Mme Martin)", "Didier Bourdon (Mr Martin)", "Gérard Jugnot (le père de Greg)", "Arielle Dombasle (la mère de Greg)", "Georges Corraface (Thierry)", "Catherine Benguigui (Dominique)", "Reem Kherici", "Gad Elmaleh"],
+        "echipe_technique" : ["Julien Arruti (scénario)", "Pierre Dudan (scénario)", "Philippe Lacheau (scénario)", "Pierre Lacheau (scénario)", "Maxime Desprez (musique)", "Michael Tordjman (musique)", "Pierric Gantelmi d'Ille (direction artistique)"],
+        "distributeur" : "StudioCanal",
+        "date_sortie" : "8 février 2023"
+    }
+]
+}
