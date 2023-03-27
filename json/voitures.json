@@ -1,0 +1,42 @@
+{
+"Land Rover Discovery Sport" : [
+    {
+        "model" : "2.0 Td4 SE 4WD Auto",
+        "prix" : "25 390 €",
+        "informations" : ["Première immatriculation: 09.2016", "Kilométrage: 79 660 km", "Carburant: Diesel", "Transmission: Boite de vitesse automatique"],
+        "details" : ["Classe du véhicule: SUV", "5 portes", "5 places"],
+        "moteur_et_consomation" : ["Cylindrée: 1999 ccm", "Classe d'émission: EURO 6"],
+        "points_forts" : ["4 Roues motrices", "Caméra de recul", "Climatisation automatique bi-zone", "Feux xénons", "GPS intégré", "Hayon électrique", "Jantes 19 pouces", "Jantes Alu", "Jantes Alu", "Lave-phares", "Limiteur de vitesse", "Radars de stationnement arrière", "Radars de stationnement avant", "Siège conducteur à réglage électrique", "Siège à mémoire de position", "Vitres surteintées arrière"]
+    }
+],
+"Volkswagen Golf VII" : [
+    {
+        "model" : "1.4 TSI BlueMotion Tech Allstar BV6",
+        "prix" : "16 890 €",
+        "informations" : ["Première immatriculation: 06.2016", "Kilométrage: 65 570 km", "Carburant: Essence", "Transmission: Boite de vitesse manuelle"],
+        "details" : ["Classe du véhicule: Berline", "5 portes", "5 places"],
+        "moteur_et_consomation" : ["Cylindrée: 1395 ccm", "Classe d'émission: EURO 6"],
+        "points_forts" : ["Caméra de recul", "Climatisation automatique bi-zone", "Climatisation aux places arrière", "GPS intégré", "Jantes 17 pouces", "Jantes Alu bi-ton", "Limiteur de vitesse", "Radars de stationnement arrière", "Radars de stationnement avant", "Régulateur de vitesse adaptatif"]
+    }
+],
+"Citroen C5 Aircross" : [
+    {
+        "model" : "1.6 Hybrid Shine e-EAT8",
+        "prix" : "32 090 €",
+        "informations" : ["Première immatriculation: 03.2021", "Kilométrage: 40 112 km", "Carburant: Hybride", "Transmission: Boite de vitesse automatique"],
+        "details" : ["Classe du véhicule: SUV", "5 portes", "5 places"],
+        "moteur_et_consomation" : ["Cylindrée: 1598 ccm", "Classe d'émission: EURO 6"],
+        "points_forts" : ["Android Auto", "Apple CarPlay", "Caméra de recul", "Climatisation automatique bi-zone", "Climatisation aux places arrière", "Cockpit virtuel", "Détecteur d'angle mort", "Feux avant LED", "GPS intégré", "Hayon électrique", "Jantes 18 pouces", "Jantes Alu bi-ton", "Lane Assist / Aide au maintien de voie", "Limiteur de vitesse", "Radars de stationnement avant et arrière", "Régulateur de vitesse adaptatif", "Vitres surteintées arrière"]
+    }
+],
+"Volkswagen Amarok" : [
+    {
+        "model" : "2.0 TDI 4WD Canyon Auto",
+        "prix" : "24 590 €",
+        "informations" : ["Première immatriculation 03.2014", "Kilométrage: 134 340 km", "Carburant: Diesel", "Transmission: Boite de vitesse automatique"],
+        "details" : ["Classe du véhicule: Pickup", "4 portes", "5 places"],
+        "moteur_et_consomation" : ["Cylindrée: 1968 ccm", "Classe d'émission: EURO 5"],
+        "points_forts" : ["4 Roues motrices", "GPS intégré", "Jantes 17 pouces", "Jantes Alu bi-ton", "Radars de stationnement arrière", "Radars de stationnement avant", "Régulateur de vitesse", "Sièges avant chauffants"]
+    }
+]
+}
