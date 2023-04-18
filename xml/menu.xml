@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+<starter>
+<name>Antipasto italien</name>
+<price>5.99 €</price>
+<description>Assortiment de charcuterie fine accompagné de cornichons et de pain grillé</description>
+</starter>
+<starter>
+<name>Plateau de canapés</name>
+<price>14.99 €</price>
+<description>Tranche de pain savec différents mets</description>
+</starter>
+<main>
+<name>Pizza de luxe</name>
+<price>2700€</price>
+<description>La croute est imprégnée d'encre de seiche indienne et parsemée de paillettes d'or. Sa garniture est faite de Stilton blanc anglais, de foie gras et de truffes noires d'origine française, de caviar Ossetra et Almas de la mer Caspienne. Le tout recouvert de feuilles d'or 24 carats.</description>
+</main>
+<main>
+<name>CHAWARMA AU POULET</name>
+<price>10.99€</price>
+<description>Un sandwich libanais très parfumé à base de poulet mariné et salade sur un pain pita roulé</description>
+</main>
+<main>
+<name>Burrito</name>
+<price>10.99€</price>
+<description>Wrap mexicain composé d'une tortilla de blé remplie de haricots frits et autres garnitures.</description>
+</main>
+<dessert>
+<name>Des Cannoli à table... et autour du cou</name>
+<price>13235€</price>
+<description>Petite crêpe croustillante fourrée à la ricotta de brebis sucrée</description>
+</dessert>
+<dessert>
+<name>The Fortress Stilt Fisherman Indulgence</name>
+<price>25000€</price>
+<description>Cassata, un dessert italien à base de ricotta, de génoise, de pâte d'amandes et de sucre</description>
+</dessert>
+</menu>

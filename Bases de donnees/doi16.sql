@@ -1,0 +1,4 @@
+CREATE VIEW doi16 AS
+SELECT  *
+FROM emp
+WHERE ename LIKE '%A%A%'

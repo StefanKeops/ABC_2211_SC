@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<voitures intitule="Voitures d'occasion disponibles">
+<auto>
+    <voiture>Land Rover Discovery Sport</voiture>
+    <model>2.0 Td4 SE 4WD Auto</model>
+    <prix> 25 390 € </prix>
+    <information>INFORMATIONS</information>
+        <premiere_inmatriculation>Première immatriculation 09.2016</premiere_inmatriculation>
+        <kilometrage>Kilométrage: 79 660 km</kilometrage>
+        <carburant>Carburant: Diesel</carburant>
+        <transmission>Transmission: Boite de vitesse automatique</transmission>
+    <information>DETAILS</information>
+        <classe>Classe du véhicule: SUV</classe>
+        <portes> 5 portes </portes>
+        <places> 5 places </places>
+    <information>MOTEUR ET CONSOMATION</information>
+        <cylindree>Cylindrée: 1999 ccm</cylindree>
+        <emisions>Classe d'émission: EURO 6</emisions>
+    <information>POINTS FORTS</information>
+        <ponts_fortes>4 Roues motrices</ponts_fortes>
+        <ponts_fortes>Caméra de recul</ponts_fortes>
+        <ponts_fortes>Climatisation automatique bi-zone</ponts_fortes>
+        <ponts_fortes>Feux xénons</ponts_fortes>
+        <ponts_fortes>GPS intégré</ponts_fortes>
+        <ponts_fortes>Hayon électrique</ponts_fortes>
+        <ponts_fortes>Jantes 19 pouces</ponts_fortes>
+        <ponts_fortes>Jantes Alu</ponts_fortes>
+        <ponts_fortes>Lane Assist / Aide au maintien de voie</ponts_fortes>
+        <ponts_fortes>Lave-phares</ponts_fortes>
+        <ponts_fortes>Limiteur de vitesse</ponts_fortes>
+        <ponts_fortes>Radars de stationnement arrière</ponts_fortes>
+        <ponts_fortes>Radars de stationnement avant</ponts_fortes>
+        <ponts_fortes>Siège conducteur à réglage électrique</ponts_fortes>
+        <ponts_fortes>Siège à mémoire de position</ponts_fortes>
+        <ponts_fortes>Vitres surteintées arrière</ponts_fortes>
+</auto>
+<auto>
+    <voiture>Volkswagen Golf VII</voiture>
+    <model>1.4 TSI BlueMotion Tech Allstar BV6</model>
+    <prix> 16 890 € </prix>
+    <information>INFORMATIONS</information>
+        <premiere_inmatriculation>Première immatriculation 06.2016</premiere_inmatriculation>
+        <kilometrage>Kilométrage: 65 570 km</kilometrage>
+        <carburant>Carburant: Essence</carburant>
+        <transmission>Transmission: Boite de vitesse manuelle</transmission>
+    <information>DETAILS</information>
+        <classe>Classe du véhicule: Berline</classe>
+        <portes> 5 portes </portes>
+        <places> 5 places </places>
+    <information>MOTEUR ET CONSOMATION</information>
+        <cylindree>Cylindrée: 1395 ccm</cylindree>
+        <emisions>Classe d'émission: EURO 6</emisions>
+    <information>POINTS FORTS</information>
+        <ponts_fortes>Caméra de recul</ponts_fortes>
+        <ponts_fortes>Climatisation automatique bi-zone</ponts_fortes>
+        <ponts_fortes>Climatisation aux places arrière</ponts_fortes>
+        <ponts_fortes>GPS intégré</ponts_fortes>
+        <ponts_fortes>Jantes 17 pouces</ponts_fortes>
+        <ponts_fortes>Jantes Alu bi-ton</ponts_fortes>
+        <ponts_fortes>Limiteur de vitesse</ponts_fortes>
+        <ponts_fortes>Radars de stationnement arrière</ponts_fortes>
+        <ponts_fortes>Radars de stationnement avant</ponts_fortes>
+        <ponts_fortes>Régulateur de vitesse adaptatif</ponts_fortes>
+</auto>
+<auto>
+    <voiture>Citroen C5 Aircross</voiture>
+    <model>1.6 Hybrid Shine e-EAT8</model>
+    <prix> 32 090 € </prix>
+    <information>INFORMATIONS</information>
+        <premiere_inmatriculation>Première immatriculation 03.2021</premiere_inmatriculation>
+        <kilometrage>Kilométrage: 40 112 km</kilometrage>
+        <carburant>Carburant: Hybride</carburant>
+        <transmission>Transmission: Boite de vitesse automatique</transmission>
+    <information>DETAILS</information>
+        <classe>Classe du véhicule: SUV</classe>
+        <portes> 5 portes </portes>
+        <places> 5 places </places>
+    <information>MOTEUR ET CONSOMATION</information>
+        <cylindree>Cylindrée: 1598 ccm</cylindree>
+        <emisions>Classe d'émission: EURO 6</emisions>
+    <information>POINTS FORTS</information>
+        <ponts_fortes>Android Auto</ponts_fortes>
+        <ponts_fortes>Apple CarPlay</ponts_fortes>
+        <ponts_fortes>Caméra de recul</ponts_fortes>
+        <ponts_fortes>Climatisation automatique bi-zone</ponts_fortes>
+        <ponts_fortes>Climatisation aux places arrière</ponts_fortes>
+        <ponts_fortes>Cockpit virtuel</ponts_fortes>
+        <ponts_fortes>Détecteur d'angle mort</ponts_fortes>
+        <ponts_fortes>Feux avant LED</ponts_fortes>
+        <ponts_fortes>GPS intégré</ponts_fortes>
+        <ponts_fortes>Hayon électrique</ponts_fortes>
+        <ponts_fortes>Jantes 18 pouces</ponts_fortes>
+        <ponts_fortes>Jantes Alu bi-ton</ponts_fortes>
+        <ponts_fortes>Lane Assist / Aide au maintien de voie</ponts_fortes>
+        <ponts_fortes>Limiteur de vitesse</ponts_fortes>
+        <ponts_fortes>Radars de stationnement avant et arrière</ponts_fortes>
+        <ponts_fortes>Régulateur de vitesse adaptatif</ponts_fortes>
+        <ponts_fortes>Vitres surteintées arrière</ponts_fortes>
+</auto>
+<auto>
+    <voiture>Volkswagen Amarok</voiture>
+    <model>2.0 TDI 4WD Canyon Auto</model>
+    <prix> 24 590 € </prix>
+    <information>INFORMATIONS</information>
+        <premiere_inmatriculation>Première immatriculation 03.2014</premiere_inmatriculation>
+        <kilometrage>Kilométrage: 134 340 km</kilometrage>
+        <carburant>Carburant: Diesel</carburant>
+        <transmission>Transmission: Boite de vitesse automatique</transmission>
+    <information>DETAILS</information>
+        <classe>Classe du véhicule: Pickup</classe>
+        <portes> 4 portes </portes>
+        <places> 5 places </places>
+    <information>MOTEUR ET CONSOMATION</information>
+        <cylindree>Cylindrée: 1968 ccm</cylindree>
+        <emisions>Classe d'émission: EURO 5</emisions>
+    <information>POINTS FORTS</information>
+        <ponts_fortes>4 Roues motrices</ponts_fortes>
+        <ponts_fortes>GPS intégré</ponts_fortes>
+        <ponts_fortes>Jantes 17 pouces</ponts_fortes>
+        <ponts_fortes>Jantes Alu bi-ton</ponts_fortes>
+        <ponts_fortes>Radars de stationnement arrière</ponts_fortes>
+        <ponts_fortes>Radars de stationnement avant</ponts_fortes>
+        <ponts_fortes>Régulateur de vitesse</ponts_fortes>
+        <ponts_fortes>Sièges avant chauffants</ponts_fortes>
+</auto>
+</voitures>

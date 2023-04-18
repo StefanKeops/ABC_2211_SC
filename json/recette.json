@@ -1,0 +1,10 @@
+{
+"Crêpes bretonnes" : [
+    {
+        "simple" : ["Temps de préparation: 10 minutes", "Temps de cuisson 15 minutes", "10 Ingrédients"],
+        "ingredients_pour_pate" : ["160 g de farine de blé noir", "50 g de farine de froment", "1 oeuf", "1 cuil. à soupe d'huile végétale", "1/2 l d'eau", "sel"],
+        "ingredients_pour_garniture" : ["5 tranches de jambon", "10 oeufs", "100 g de gruyère râpé", "poivre"],
+        "instructions" : ["Etape 1 : Mélangez la farine avec l'huile, l'œuf et le sel puis verser l'eau petit à petit. La pâte doit être fluide et sans grumeaux. Laissez reposer 1 heure.", "Etape 2 : Faites chauffer une poêle légèrement graissée et versez environ une louche de pâte afin de recouvrir le fond de la poêle.", "Etape 3 : Une fois la première face cuite, retournez la crêpe et cassez un œuf dessus. Ajoutez par-dessus l'équivalent d'1/2 tranche de jambon et 10 g de gruyère.", "Etape 4 : Lorsque le blanc d'œuf est cuit, repliez les 4 côtés de la crêpe vers le centre. Salez, poivrez et servez. Répétez l’opération pour les 9 galettes complètes suivantes."]
+    }
+]
+}

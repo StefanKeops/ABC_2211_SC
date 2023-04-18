@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emploi intitule="Offres d'emploi" date="2023-03-20">
+    <job>
+        <intitule> Développeur PHP (H/F)</intitule>
+            <ville>Paris</ville>
+            <description> DESCRIPTION DU POSTE</description>
+            <description> Maintenance et évolution de notre extranet(PHP, Mysql, Javascript)</description>
+            <description> Création/maintenance des flux de nos partenaires promoteurs (Windev/PHP)</description>
+            <description> Participation à la refonte/au support des applications internes à l'aide de Drupal</description>
+            <competences> COMPETENCES REQUISES</competences>
+            <competences> Conception et maintenance de Bases de données</competences>
+            <competences> Langage SQL, Php, Mysql, Javascript </competences>
+            <competences> Connaissance d'un framework type Symfony ou Laravel</competences>
+            <competences> Esprit de logique et d'analyse</competences>
+            <date_demarrage>DATE DE DEMARRAGE</date_demarrage>
+            <date_demarrage>1 mai 2023</date_demarrage>
+            <salaire_annuel>SALAIRE ANNUEL</salaire_annuel>
+            <salaire_annuel>32 000 €</salaire_annuel>
+        <email_contact>ADRESSE EMAIL DE CONTACT</email_contact>
+        <email_contact>DevloppeurParis@logisneuf.com</email_contact>
+    </job>
+    <job>
+        <intitule>Développeur Java (H/F)</intitule>
+            <ville>Mulhouse</ville>
+            <description> DESCRIPTION DU POSTE</description>
+            <description>Rattaché(e) au Directeur de l'agence Pégase Market dont vous dépendez, vous assurerez les missions suivantes :</description>
+            <description> Développer des fonctionnalités pour nos applications en utilisant les Framesworks Jakarta EE et Spring</description>
+            <description> Ecrire du code SQL adapté pour les interactions avec la base de données</description>
+            <description> S'assurer de suivre les bonnes pratiques, design patterns et les principes SOLID</description>
+            <description> Utiliser Git pour gérer le code source</description>
+            <description> Rédiger la documentation technique pour les fonctionnalités développées</description>
+            <description> Mettre en place des protocoles de tests pour garantir la qualité du code</description>
+            <description> Participer aux évolutions de la stack et des Frameworks utilisés</description>
+            <description> Remonter les risques aux équipes de tests d'intégration</description>
+            <description> Travailler en étroite collaboration avec les membres de l'équipe pour s'assurer que les objectifs de développement sont atteints</description>
+            <description> Être curieux et continuer à apprendre de nouvelles technologies et compétences pour améliorer les projets</description>
+            <competences> COMPETENCES REQUISES</competences>
+            <competences> Compréhension de l'anglais technique</competences>
+            <competences> Maîtrise de Java ou à défaut d'un langage objet statiquement typé</competences>
+            <competences> Maîtrise des Framework tels que Jakarta EE, Spring, etc.</competences>
+            <competences> Bonne maîtrise de SQL</competences>
+            <competences> Intérêt pour les bonnes pratiques, design patterns, etc.</competences>
+            <date_demarrage>DATE DE DEMARRAGE</date_demarrage>
+            <date_demarrage>Au plus vite</date_demarrage>
+            <salaire_annuel>SALAIRE ANNUEL</salaire_annuel>
+            <salaire_annuel>Salaire brut : Selon profil et expériences</salaire_annuel>
+        <email_contact>ADRESSE EMAIL DE CONTACT</email_contact>
+        <email_contact>DevloppeurMulhouse@logisneuf.com</email_contact>
+    </job>
+        <job>
+        <intitule>Développeur Web Java (NodeJS, angular) (IT) / Freelance (H/F)</intitule>
+            <ville>Toulouse</ville>
+            <description> DESCRIPTION DU POSTE</description>
+            <description> Vous travaillerez sur la réalisation/maintenance de système d'information dans le domaine de la défense.</description>
+            <description> Vous interviendrez sur différentes phases du projet :</description>
+                            <description> Phase de maintenance : correction d'anomalies et réalisation d'évolutions.</description>
+                            <description> Phase de build : développement de fonctionnalités et de mise en place de technique.</description>
+            <competences> COMPETENCES REQUISES</competences>
+            <competences> Langages : Java, NodeJs, JSF, Angular, Javascript, PSQL</competences>
+            <competences> Framework : Spring, Hibernate, Spring-boot, Cucumber</competences>
+            <competences> Tests : Tests Unitaires, tests e2e, tests Integration</competences>
+            <competences> Environnement : IntelliJ / Eclipse, Gitlab, Gitlab CI/jenkins, Sonar, Docker, Nexus, jrebel, Enterprise</competences>
+            <competences>Architect</competences>
+            <competences>Logiciels : Stack Elastic, Liferay, Postgres</competences>
+            <competences>Architecture : Microservices, MVC, SOA</competences>
+            <competences>OS : CentOS, Windows</competences>
+            <date_demarrage>DATE DE DEMARRAGE</date_demarrage>
+            <date_demarrage>1 mai 2023</date_demarrage>
+            <salaire_annuel>SALAIRE ANNUEL</salaire_annuel>
+            <salaire_annuel>Salaire brut : Selon profil et expériences</salaire_annuel>
+        <email_contact>ADRESSE EMAIL DE CONTACT</email_contact>
+        <email_contact>DevloppeurToulouse@logisneuf.com</email_contact>
+    </job>
+</emploi>
+
