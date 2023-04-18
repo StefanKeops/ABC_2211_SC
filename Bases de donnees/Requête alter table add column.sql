@@ -1,1 +1,0 @@
-ALTER TABLE emp ADD project_no INT(3);

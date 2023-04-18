@@ -1,1 +1,0 @@
-package suite_de_conway;

@@ -1,1 +1,0 @@
-package vitesse_moyenne;

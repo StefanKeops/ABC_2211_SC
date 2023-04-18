@@ -1,4 +1,0 @@
-CREATE VIEW liste17
-AS SELECT  *
-FROM emp
-WHERE sal > (SELECT AVG(sal) FROM emp);
